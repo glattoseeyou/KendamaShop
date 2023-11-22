@@ -9,12 +9,36 @@
 </head>
 <body>
     <header>
-        <nav class="nav">
-            <div class="navbar">
-                
+        <nav class="navbar">
+            <div id="header-container" class="container-fluid justify-content-between">
+               
+                <button id="menu-button" class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-menu">
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#header-container">Home</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+
+                <div id="brand" class="navbar-brand m-0">
+                    <a href="#">
+                        <img id="brand-image" src="https://placehold.co/200x100">
+                    </a>
+                </div>
+
+                <div id="header-to-store">
+                    <span>To store</span>
+                </div>
             </div>
         </nav>
     </header>   
-    <script src="../js/bootstrap.min.js"></script>     
+
+    <script src="../js/bootstrap.js"></script>     
 </body>
 </html>
