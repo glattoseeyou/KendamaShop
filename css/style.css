@@ -2,16 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-html{
     overflow-x: hidden;
+
 }
 
 /***        MAIN CONTENT        ***/
 
 #jumbotrone{
-    overflow: hidden;
     padding: 0;
     height: 500px;
 }
@@ -30,6 +27,7 @@ html{
 #jumbo-text{
     color: gainsboro;
     font-size: 60px;
+    overflow: hidden;
 }
 
 #jumbo-button{
@@ -83,13 +81,26 @@ html{
     transition: .2s;
 }
 
+.benefits-icon-container div{
+    font-weight: bold;
+}
+
 
 /***        END OF MAIN CONTENT     ***/
 
 @media (max-width: 900px){
     #jumbo-gif{
-        background-size: 200%;
+        background-size: 250%;
         background-position: center center;
+    }
+
+    #jumbo-button{
+        background-color: gainsboro;
+        color: black;
+    }
+
+    #jumbotrone{
+        height: 400px;
     }
 
     #main-content{
