@@ -74,6 +74,17 @@
 .benefits-icons{
     width: 120px;
     height: auto;
+    margin-bottom: 15px;
+}
+
+.benefits-icons:hover{
+    transform: translateY(-8px);
+    transition: .2s;
+}
+
+.benefits-icons:not(hover){
+    transform: translateY(1px);
+    transition: .2s;
 }
 
 #adv-text{
