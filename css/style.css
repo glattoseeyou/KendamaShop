@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    overflow-x: hidden;
+}
+
  /***       HEADER      ***/
 
 #menu-button{
@@ -46,6 +50,10 @@
     height: 100%;
 }
 
+#jumbo-content{
+    opacity: 85%;
+}
+
 #jumbo-text{
     color: gainsboro;
     font-size: 60px;
@@ -61,24 +69,28 @@
     color: black;
 }
 
-.icon-container{
-    margin: 0 8%;
+#prom-text{
+    font-size: 25px;
+    margin-top: 15px;
+    font-style: italic;
+    opacity: 40%;
+}
+
+.benefits-icon-container{
+   
 }
 
 .icons{
     width: 120px;
     height: auto;
-    opacity: 30%;
+    opacity: 40%;
+    margin: 5px 15px;
 }
 
 .benefits-icons{
     width: 120px;
     height: auto;
-}
-
-#adv-text{
-    font-size: 25px;
-    margin-top: 15px;
+    margin: 15px 80px 15px 80px;
 }
 
 
@@ -87,14 +99,8 @@
 }
 
 #fill-gif{
-    width: 640px;
-    height: 640px;
-}
-
-.icons{
-    width: 120px;
-    height: auto;
-    opacity: 40%;
+    width: 30vw;
+    height: 30vw;
 }
 
 /***        END OF MAIN CONTENT     ***/
@@ -107,4 +113,15 @@
     background-size: cover;
     background-position: center center;
     padding-left: 667px;
+}
+
+@media (max-width: 900px){
+    #jumbo-gif{
+        background-size: 200%;
+        background-position: center center;
+    }
+
+    #footer-gif-wrapper{
+        height: 20vh;
+    }
 }
