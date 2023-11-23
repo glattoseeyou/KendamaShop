@@ -69,16 +69,7 @@ html{
     color: black;
 }
 
-#prom-text{
-    font-size: 25px;
-    margin-top: 15px;
-    font-style: italic;
-    opacity: 40%;
-}
 
-.benefits-icon-container{
-   
-}
 
 .icons{
     width: 120px;
@@ -91,6 +82,23 @@ html{
     width: 120px;
     height: auto;
     margin: 15px 80px 15px 80px;
+}
+
+.benefits-icons:hover{
+    transform: translateY(-8px);
+    transition: .2s;
+}
+
+.benefits-icons:not(hover){
+    transform: translateY(1px);
+    transition: .2s;
+}
+
+#prom-text{
+    font-size: 25px;
+    margin-top: 15px;
+    font-style: italic;
+    opacity: 40%;
 }
 
 
