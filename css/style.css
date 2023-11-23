@@ -51,6 +51,20 @@
     color: black;
 }
 
+#promotion-icons{
+    justify-content: center
+
+}
+
+.icon-container{
+    margin: 0 8%;
+}
+
+.icons{
+    width: 120px;
+    height: auto;
+}
+
 #space-fill-gif{
     margin-top: 600px;
     width: 100%;
