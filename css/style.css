@@ -90,9 +90,12 @@
 
 @media (max-width: 900px){
     #jumbo-gif{
-        background-size: 250%;
-        background-position: center center;
+        background-image: url("../img/Design-sans-titre-_11.gif");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 100%;
     }
+
 
     #jumbo-button{
         background-color: gainsboro;
@@ -100,7 +103,7 @@
     }
 
     #jumbotrone{
-        height: 400px;
+        height: 700px;
     }
 
     #main-content{
