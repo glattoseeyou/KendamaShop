@@ -8,34 +8,7 @@ html{
     overflow-x: hidden;
 }
 
- /***       HEADER      ***/
-
-#menu-button{
-    border: 0px;
-    padding-left: 10px;
-}
-
-#header-to-store{
-    margin-right: 10px;
-
-}
-
-#header-to-store:hover{
-    border-bottom: 2px solid rgb(0, 0, 0);
-}
-
-#header-to-store-style{
-    color: black;
-    text-decoration: none;
-}
-
-/***        END OF HEADER       ***/
-
 /***        MAIN CONTENT        ***/
-
-#main-content{
-    margin-top: 20px;
-}
 
 #jumbotrone{
     overflow: hidden;
@@ -65,11 +38,27 @@ html{
 }
 
 #jumbo-button:hover{
-    background: gainsboro;
+    transform: translateY(4px);
+    transition: .2;
+    background-color: gainsboro;
     color: black;
 }
 
+#jumbo-button:active{
+    border: 0;
+}
 
+#jumbo-button:hover span{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition: .1;
+}
+
+#prom-text{
+    font-size: 25px;
+    margin-top: 15px;
+    font-style: italic;
+    opacity: 40%;
+}
 
 .icons{
     width: 120px;
@@ -94,34 +83,8 @@ html{
     transition: .2s;
 }
 
-#prom-text{
-    font-size: 25px;
-    margin-top: 15px;
-    font-style: italic;
-    opacity: 40%;
-}
-
-
-#fill-gif-wrapper{
-    margin-top: 50px;
-}
-
-#fill-gif{
-    width: 30vw;
-    height: 30vw;
-}
 
 /***        END OF MAIN CONTENT     ***/
-
-#footer-gif-wrapper{
-    height: 300px;
-    background-image: url("../img/ezgif.com-optimize_1.webp");
-    padding-bottom: 100px;
-    margin-top: 100px;
-    background-size: cover;
-    background-position: center center;
-    padding-left: 667px;
-}
 
 @media (max-width: 900px){
     #jumbo-gif{
@@ -129,7 +92,7 @@ html{
         background-position: center center;
     }
 
-    #footer-gif-wrapper{
-        height: 20vh;
+    #main-content{
+        margin-bottom: 50px;
     }
 }
