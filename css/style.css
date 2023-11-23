@@ -8,7 +8,17 @@
 }
 
 #header-to-store{
-    padding-right: 10px;
+    margin-right: 10px;
+
+}
+
+#header-to-store:hover{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#header-to-store-style{
+    color: black;
+    text-decoration: none;
 }
 
 #jumbotrone{
@@ -34,6 +44,25 @@
 #jumbo-button{
     color: gainsboro;
     font-size: 50px;
+}
+
+#jumbo-button:hover{
+    background: gainsboro;
+    color: black;
+}
+
+#promotion-icons{
+    justify-content: center
+
+}
+
+.icon-container{
+    margin: 0 8%;
+}
+
+.icons{
+    width: 120px;
+    height: auto;
 }
 
 #space-fill-gif{
